@@ -17,9 +17,11 @@
         $<%= product.price %> - <%= product.name %>
       </h2>
       <p>
+        Quantity left: <%= product.quantity %>
+      </p>
+      <p>
         <%= product.description %>
       </p>
-
       <p>
         <a href="/products/<%= product.id %>/edit">
           edit
